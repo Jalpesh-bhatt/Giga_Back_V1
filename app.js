@@ -18,7 +18,8 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 // mongoose.connect('mongodb://localhost:27017/business', {
 
 // MongoDB Atlas Connection (from .env)
-mongoose.connect(`mongodb+srv://atharvsoni63:uBdErDJ1SmVAc4FW@business.vihajd0.mongodb.net/business?retryWrites=true&w=majority`, 
+mongoose.connect(`mongodb+srv://dharmadip:Dharmadip%40123@cluster0.ix79shm.mongodb.net/
+`, 
 //   {
 //   useNewUrlParser: true,
 //   useUnifiedTopology: true,
