@@ -14,9 +14,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
-app.use(express.static("build")); 
-app.get("*", (req, res) => {res.sendFile(path.join(__dirname, "build", "index.html"));
-});
+//app.use(express.static("build")); 
+//app.get("*", (req, res) => {res.sendFile(path.join(__dirname, "build", "index.html"));
+//});
 
 
 // mongoose.connect('mongodb://localhost:27017/business', {
@@ -62,4 +62,5 @@ app.use('/api/admin/category', CategoryRoutes);
 const PORT = process.env.PORT || 5001;
 
 app.listen(PORT, () => console.log(`🚀 Server running on http://localhost:${PORT}`));
+
 
