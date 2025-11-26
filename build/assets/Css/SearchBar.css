@@ -1,0 +1,57 @@
+/* components/SearchBar.css */
+.search-bar-listing  {
+  position: fixed;
+  top: 120px; /* Adjust based on navbar height */
+  width: 100%;
+  z-index: 998;
+  background-color: #fff2eb;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  padding: 12px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.search-input {
+  display: flex;
+  align-items: center;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 3px 10px;
+  border-radius: 30px;
+  min-width: 260px;
+  max-width: 100%;
+  flex: 1;
+}
+
+.search-input i {
+  margin-right: 8px;
+  color: #9a3e44;
+}
+
+.search-input input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 16px;
+  background: transparent;
+}
+
+/* SearchBar.css */
+@media (max-width: 768px) {
+  .search-bar-listing {
+    top: 120px; /* Reduce top for smaller screens */
+    flex-direction: column; /* Stack inputs vertically */
+    align-items: stretch;
+  }
+
+  .search-input {
+    min-width: unset;
+    width: 100%;
+  }
+}
+
+
+

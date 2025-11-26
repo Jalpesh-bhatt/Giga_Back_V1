@@ -1,0 +1,9 @@
+.package-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-width: 2px;
+  border-radius: 15px;
+}
+.package-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
