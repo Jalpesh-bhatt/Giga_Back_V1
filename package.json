@@ -6,7 +6,7 @@
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "body-parser": "^1.20.3",
-    "cloudinary": "^2.8.0",
+    "cloudinary": "^1.41.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
@@ -15,11 +15,16 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.16.1",
     "multer": "^2.0.1",
-    "multer-storage-cloudinary": "^2.2.1",
-    "nodemon": "^3.1.10",
+    "multer-storage-cloudinary": "^4.0.0",
     "path": "^0.12.7",
     "razorpay": "^2.9.6",
-    "xlsx": "^0.18.5",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js",}
+    "dev": "nodemon app.js"
+  }
+}
